@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %}
+<select>
+  {% for t in titles %}
+  <option>{{ t }}</option>
+  {% endfor%}
+  <button>Go</button>
+</select>
+{% endblock %}
